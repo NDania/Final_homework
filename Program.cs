@@ -14,3 +14,4 @@ for(int i = 0; i < text.Length; i++)
     if(text[i].Length < 4)
         m++;
 }
+Console.WriteLine($"[{string.Join(", ", text)}]");
