@@ -17,3 +17,12 @@ for(int i = 0; i < text.Length; i++)
 Console.WriteLine($"[{string.Join(", ", text)}]");
 
 string[]newarray = new string[m];
+int j = 0;
+for(int i = 0; i < text.Length; i++)
+{
+    if(text[i].Length < 4)
+    {
+        newarray[j] = text[i];
+        j++;
+    }
+}
