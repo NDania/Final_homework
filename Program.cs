@@ -15,3 +15,5 @@ for(int i = 0; i < text.Length; i++)
         m++;
 }
 Console.WriteLine($"[{string.Join(", ", text)}]");
+
+string[]newarray = new string[m];
